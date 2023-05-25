@@ -5,7 +5,7 @@
 //  Created by Yevhenii Veretennikov on 24.05.2023.
 //
 
-extension ApiClient: FeedClient {
+extension ApiClient: FeedLoader {
     func loadFeed(completion: ([FeedItem]) -> Void) {
         execute(request: "feed_request") { result in
             switch result {

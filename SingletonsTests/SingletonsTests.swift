@@ -29,6 +29,17 @@ final class SingletonsTests: XCTestCase {
         composer.compose()
         // test results
     }
+    
+    func test_feedloadersComposition() {
+        let remote = RemoteFeedLoader()
+        let local = LocalFeedLoader()
+        let composed = RemoteWithLocalFallbackFeedLoader(remote: remote, local: local)
+        
+        let feedViewController2 = FeedViewController(loader: remote)
+        let feedViewController3 = FeedViewController(loader: local)
+        let feedViewController4 = FeedViewController(loader: composed)
+        // test results
+    }
 }
 
 class SuccessApiClient: ApiClient {

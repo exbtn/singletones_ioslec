@@ -16,6 +16,7 @@
 		6DC0BCF82A1E9B1500787B89 /* ApiClient+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BCF72A1E9B1500787B89 /* ApiClient+Login.swift */; };
 		6DC0BCFA2A1E9B2700787B89 /* ApiClient+Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BCF92A1E9B2700787B89 /* ApiClient+Feed.swift */; };
 		6DC0BCFC2A1E9B3700787B89 /* Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BCFB2A1E9B3700787B89 /* Composer.swift */; };
+		6DC0BCFE2A2001AF00787B89 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BCFD2A2001AF00787B89 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		6DC0BCF72A1E9B1500787B89 /* ApiClient+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiClient+Login.swift"; sourceTree = "<group>"; };
 		6DC0BCF92A1E9B2700787B89 /* ApiClient+Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiClient+Feed.swift"; sourceTree = "<group>"; };
 		6DC0BCFB2A1E9B3700787B89 /* Composer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composer.swift; sourceTree = "<group>"; };
+		6DC0BCFD2A2001AF00787B89 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				6DC0BCF52A1E9AEF00787B89 /* FeedViewController.swift */,
+				6DC0BCFD2A2001AF00787B89 /* FeedLoader.swift */,
 				6DC0BCF92A1E9B2700787B89 /* ApiClient+Feed.swift */,
 			);
 			path = FeedModule;
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC0BCFE2A2001AF00787B89 /* FeedLoader.swift in Sources */,
 				6DC0BCF32A1E9AD100787B89 /* LoginViewController.swift in Sources */,
 				6DC0BCF82A1E9B1500787B89 /* ApiClient+Login.swift in Sources */,
 				6DC0BCFA2A1E9B2700787B89 /* ApiClient+Feed.swift in Sources */,
